@@ -19,7 +19,7 @@ public class Main{
         //if count is less than 7, you print a very good guess
 
 
-        
+    
 
             if(guess < x){
                 System.out.println("Too low");
@@ -39,6 +39,9 @@ public class Main{
                 System.out.println("A very good guess");
             }
            
+            else if(count > 7){
+                System.out.println("You lose");
+            }
             }
         
         while (guess!=x);
